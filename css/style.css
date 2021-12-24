@@ -228,7 +228,7 @@ button {
 
 
 .header__main-img {
-    background: url(../../img/header/header.svg) 0 0 / cover no-repeat;
+    background: url(../img/header/header.svg) 0 0 / cover no-repeat;
     min-height: 990px;
     min-width: 50%;
     top: -75px;
@@ -365,11 +365,9 @@ button {
     line-height: 150%;
     color: var(--color-text);
 }
-   
+
   /* =================== media ================== */
-  /* =================== media ================== */
-  /* =================== media ================== */
-  
+
 @media (max-width: 992px) {
     .adout__block {
         gap: 25px;
@@ -462,7 +460,7 @@ button {
     position: relative;
 }
 .servicess__info::before {
-    content: url(../../img/servicess/servicess-befor.svg);
+    content: url(../img/servicess/servicess-befor.svg);
     position: absolute;
     top: 0;
     left: -35px;
@@ -474,7 +472,7 @@ button {
 }
 
 .servicess__image {
-    background: url(../../img/servicess/servicess-fon.svg) 0 0 / cover no-repeat;
+    background: url(../img/servicess/servicess-fon.svg) 0 0 / cover no-repeat;
     top: 0;
     left: 0;
     width: 100%;
@@ -489,7 +487,7 @@ button {
         flex-direction: column;
     }
     .servicess__image {
-        background: url(../../img/servicess/servicess-fon.svg) 0 50% / cover no-repeat;
+        background: url(../img/servicess/servicess-fon.svg) 0 50% / cover no-repeat;
         top: 0;
         left: 0;
         width: 50%;
@@ -498,7 +496,7 @@ button {
 }
 @media (max-width: 768px) {
     .servicess__image {
-        background: url(../../img/servicess/servicess-fon.svg) 0 0 / cover no-repeat;
+        background: url(../img/servicess/servicess-fon.svg) 0 0 / cover no-repeat;
         top: 0;
         left: 0;
         width: 100%;
@@ -670,7 +668,7 @@ button {
         margin-bottom: 30px;
     }
     }
-    @media (max-width: 550px) {
+@media (max-width: 550px) {
     .pack__block-item {
         max-width: 90%;
     }
